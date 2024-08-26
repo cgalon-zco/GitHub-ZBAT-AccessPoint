@@ -8,13 +8,21 @@
     <script>
         window.addEventListener('beforeunload', e => {e.preventDefault(); e.returnValue='';});
     </script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body style="height: 100vh; margin: 0; padding: 0; overflow: hidden">
-    <iframe
-            name="ZBATHostedApplicationIframe"
-            src="https://tstdrv2156943.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=7236&deploy=1&compid=TSTDRV2156943&ns-at=AAEJ7tMQIx2z4274MrnnhdPSnAmoYYw70S1235_kvR5ouBoQVmw&qnw63ezfktjxe4nhy6ziteqmta=4x0M5za1YTUxVKPIE7XM8TYkmkd9w5WqJojSKf3SosoGdsSGggzuEz5EzyBHA6H7OIp3HkSD"
-            style="width: 100vw; height: 100vh; border: none; margin: 0"
-            allow="clipboard-write"
-    ></iframe>
+<iframe
+        name="ZBATHostedApplicationIframe"
+        src="https://tstdrv2156943.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=7236&deploy=1&compid=TSTDRV2156943&ns-at=AAEJ7tMQIx2z4274MrnnhdPSnAmoYYw70S1235_kvR5ouBoQVmw&qnw63ezfktjxe4nhy6ziteqmta=4x0M5za1YTUxVKPIE7XM8TYkmkd9w5WqJojSKf3SosoGdsSGggzuEz5EzyBHA6H7OIp3HkSD"
+        style="width: 100vw; height: 100vh; border: none; margin: 0; box-sizing: border-box;"
+        allow="clipboard-write"
+></iframe>
 </body>
 </html>
